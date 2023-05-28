@@ -1,0 +1,105 @@
+:root {
+  --VeryDarkBlue: hsl(243, 87%, 12%);
+  --DesaturatedBlue: hsl(238, 22%, 44%);
+  --BrightBlue: hsl(224, 93%, 58%);
+  --ModerateCyan: hsl(170, 45%, 43%);
+  --LightGrayishBlue: hsl(240, 75%, 98%);
+  --LightGray: hsl(0,  0%,  75%);
+}
+
+/* body {
+  max-width: 1536px;
+  margin: 0 auto;
+} */
+
+h1,a {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  color: var(--DesaturatedBlue);
+}
+
+button {
+    width: 100%;
+}
+
+.logo {
+  width: 100px;
+}
+
+.bg-image {
+    background-image: url('/images/bg-curve-mobile.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-rep;
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
+
+.green-border {
+    width: 165px;
+    border: 0.1px solid;
+}
+
+.bg-blue {
+  background-color: var(--DesaturatedBlue);
+}
+
+.bg-bluetxt {
+  color: var(--LightGrayishBlue);
+}
+
+.input-size, .btn-size {
+  width: 75% !important;
+}
+
+footer {
+  background-color: var(--VeryDarkBlue);
+}
+
+footer span {
+  color: var(--LightGrayishBlue);
+}
+
+.bi {
+  color: var(--LightGrayishBlue);
+  font-size: 1.7rem;
+}
+
+@media (min-width: 768px) {
+  .width-adjust {
+    width: 50%;
+  }
+  .img-adjust {
+    width: 300px;
+    height: 500px;
+  }
+
+  .logo {
+    width: auto;
+  }
+
+  .btn-size {
+    width: 55% !important;
+  
+  }
+
+}
+@media (min-width: 992px) {
+  .img-adjust {
+    width: 450px;  
+}
+.width-adjust {
+    width: 45%;
+  }
+
+button {
+    width: 300px !important;
+}
+}
